@@ -20,6 +20,7 @@ function Navbar() {
           <a
             className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#home"
+            onClick={handleNav}
           >
             <AiOutlineHome size={20} />
             <span className="pl-4 ">Home</span>
@@ -27,6 +28,7 @@ function Navbar() {
           <a
             className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#experience"
+            onClick={handleNav}
           >
             <BsCodeSlash size={20} />
             <span className="pl-4 ">Experience</span>
@@ -34,6 +36,7 @@ function Navbar() {
           <a
             className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#projects"
+            onClick={handleNav}
           >
             <LiaProjectDiagramSolid size={20} />
             <span className="pl-4 ">Projects</span>
