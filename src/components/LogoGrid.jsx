@@ -12,17 +12,16 @@ function LogoGrid() {
     Tailwind: "./../../public/logos/tailwindcss.svg",
     Vite: "./../../public/logos/vite.svg",
     NPM: "./../../public/logos/npm.svg",
-    Yarn: "./../../public/logos/yarn.svg",
     Git: "./../../public/logos/git.svg",
     GitHub: "./../../public/logos/github.svg",
+    VSCode: "./../../public/logos/vscode.svg",
     IntelliJ: "./../../public/logos/intellij.svg",
     PyCharm: "./../../public/logos/pycharm.svg",
     Eclipse: "./../../public/logos/eclipse.svg",
-    VSCode: "./../../public/logos/vscode.svg",
   };
 
   return (
-    <div className="max-w-[1040px] h-screen m-auto">
+    <div id="experience" className="max-w-[1040px] w-screen h-screen m-auto">
       <h1 className="text-2xl sm:text-4xl font-bold text-center py-12">
         Experience In:
       </h1>

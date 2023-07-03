@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       {isSmallScreen ? (
-        <div id="#home">
+        <div id="home">
           <div className="w-screen h-screen pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 bg-slate-100">
             <img className="rounded-3xl shadow-lg" src="paris.jpg" />
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />

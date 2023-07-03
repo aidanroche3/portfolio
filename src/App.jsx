@@ -5,11 +5,9 @@ import LogoGrid from "./components/LogoGrid";
 function App() {
   return (
     <>
-      <div className="flex flex-wrap overflow-hidden">
-        <Navbar />
-        <Home />
-        <LogoGrid />
-      </div>
+      <Navbar />
+      <Home />
+      <LogoGrid />
     </>
   );
 }
