@@ -1,13 +1,14 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Empty from "./components/Empty";
+import Logo from "./components/Logo";
+import LogoGrid from "./components/LogoGrid";
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
-      <Empty />
+      <LogoGrid />
     </>
   );
 }
