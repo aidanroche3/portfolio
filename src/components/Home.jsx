@@ -47,7 +47,7 @@ function Home() {
         </div>
       ) : (
         <>
-          <div className="w-screen h-screen pt-20 p-5 pb-20 bg-slate-100">
+          <div className="max-w-[700px] m-auto h-full w-full pt-20 p-5 pb-20 bg-slate-100">
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
           </div>
           <div className="w-full h-screen absolute top-0 left-0 bg-white/20">

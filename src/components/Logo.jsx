@@ -4,12 +4,9 @@ function Logo(props) {
 
   return (
     <>
-      <div
-        className="tooltip sm:h-20 h-10 sm:w-20 w-10 pt-2 m-0 p-0"
-        data-tip={name}
-      >
+      <div className="tooltip tooltip-top" data-tip={name}>
         <img
-          className="sm:h-20 h-10 sm:w-20 w-10 hover:scale-110 ease-in duration-200"
+          className="h-24 sm:h-32 w-24 sm:w-32 pt-2 hover:scale-110 ease-in duration-200"
           src={icon}
           alt={name}
         />

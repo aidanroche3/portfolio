@@ -1,14 +1,15 @@
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Logo from "./components/Logo";
 import LogoGrid from "./components/LogoGrid";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <LogoGrid />
+      <div className="flex flex-wrap overflow-hidden">
+        <Navbar />
+        <Home />
+        <LogoGrid />
+      </div>
     </>
   );
 }

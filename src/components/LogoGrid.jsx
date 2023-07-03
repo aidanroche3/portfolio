@@ -9,20 +9,29 @@ function LogoGrid() {
     CSS: "./../../public/logos/css.svg",
     JavaScript: "./../../public/logos/javascript.svg",
     React: "./../../public/logos/react.svg",
-    tailwindcss: "./../../public/logos/tailwindcss.svg",
+    Tailwind: "./../../public/logos/tailwindcss.svg",
+    Vite: "./../../public/logos/vite.svg",
+    NPM: "./../../public/logos/npm.svg",
+    Yarn: "./../../public/logos/yarn.svg",
     Git: "./../../public/logos/git.svg",
     GitHub: "./../../public/logos/github.svg",
     IntelliJ: "./../../public/logos/intellij.svg",
+    PyCharm: "./../../public/logos/pycharm.svg",
     Eclipse: "./../../public/logos/eclipse.svg",
     VSCode: "./../../public/logos/vscode.svg",
   };
 
   return (
-    <div className="h-screen w-screen p-28">
-      <div className="flex justify-between items-center">
-        {Object.entries(iconDictionary).map(([title, link]) => (
-          <Logo name={title} icon={link} />
-        ))}
+    <div className="max-w-[1040px] h-screen m-auto">
+      <h1 className="text-2xl sm:text-4xl font-bold text-center py-12">
+        Experience In:
+      </h1>
+      <div className="flex justify-center items-center">
+        <div className="inline-grid grid-cols-3 sm:grid-cols-4 gap-12 sm:gap-20">
+          {Object.entries(iconDictionary).map(([title, link]) => (
+            <Logo key={title} name={title} icon={link} />
+          ))}
+        </div>
       </div>
     </div>
   );
