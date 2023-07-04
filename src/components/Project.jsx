@@ -10,10 +10,10 @@ function Project({ title, description, image, skills, link }) {
         className="rounded-xl group-hover:opacity-10"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2xl font-bold text-[#001b5e] tracking-wider text-center">
+        <h3 className="text-2xl font-bold text-primary tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-[#001b5e] text-center">{description}</p>
+        <p className="pb-4 pt-2 text-primary text-center">{description}</p>
       </div>
       {link ? (
         <div className="hidden group-hover:block absolute top-4 right-4">

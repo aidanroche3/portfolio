@@ -4,7 +4,7 @@ import Project from "./Project";
 function ProjectGrid() {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-16">
+      <h1 className="text-4xl font-bold text-center text-primary pb-16">
         Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
@@ -26,12 +26,13 @@ function ProjectGrid() {
         />
         <Project
           title="Bullet Journal"
-          description="Bullet Journal Application built with JavaFX"
+          description="Bullet journal application built with JavaFX"
           link={"https://github.com/aidanroche3/PA-05-Java-Journal"}
           image="projects/bulletjournal.PNG"
           skills={{
             Java: "logos/java.svg",
             "JavaFX SceneBuilder": "logos/javafx.png",
+            Gradle: "logos/gradle.svg",
             IntelliJ: "logos/intellij.svg",
           }}
         />
@@ -43,6 +44,7 @@ function ProjectGrid() {
           skills={{
             Java: "logos/java.svg",
             JSON: "logos/json.png",
+            Gradle: "logos/gradle.svg",
             IntelliJ: "logos/intellij.svg",
           }}
         />
@@ -53,27 +55,26 @@ function ProjectGrid() {
           image="projects/anki.PNG"
           skills={{
             Java: "logos/java.svg",
+            Gradle: "logos/gradle.svg",
             IntelliJ: "logos/intellij.svg",
           }}
         />
         <Project
-          title="Summarize This + Anki-Lite"
-          description="Application for generating study guides and study sessions with spaced repetition quizzes"
-          link="https://github.com/aidanroche3/PA-02-Anki-Lite"
-          image="projects/anki.PNG"
+          title="Search Maze"
+          description="Random mazes generated with Kruskal's algorithm and automatic solving with breadth-first and depth-first searches"
+          image="projects/maze.gif"
           skills={{
             Java: "logos/java.svg",
-            IntelliJ: "logos/intellij.svg",
+            Eclipse: "logos/eclipse.svg",
           }}
         />
         <Project
-          title="Summarize This + Anki-Lite"
-          description="Application for generating study guides and study sessions with spaced repetition quizzes"
-          link="https://github.com/aidanroche3/PA-02-Anki-Lite"
-          image="projects/anki.PNG"
+          title="Flood It!"
+          description="Flood every cell within a limited number of moves"
+          image="projects/floodit.gif"
           skills={{
             Java: "logos/java.svg",
-            IntelliJ: "logos/intellij.svg",
+            Eclipse: "logos/eclipse.svg",
           }}
         />
       </div>

@@ -11,7 +11,7 @@ const iconDictionary = {
   React: "./../../public/logos/react.svg",
   Tailwind: "./../../public/logos/tailwindcss.svg",
   Vite: "./../../public/logos/vite.svg",
-  NPM: "./../../public/logos/npm.svg",
+  Gradle: "./../../public/logos/gradle.svg",
   Git: "./../../public/logos/git.svg",
   GitHub: "./../../public/logos/github.svg",
   VSCode: "./../../public/logos/vscode.svg",
@@ -26,10 +26,10 @@ function LogoGrid() {
       id="experience"
       className="h-screen m-auto flex flex-col justify-center items-center py-4 sm:py-12"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold text-center text-[#001b5e] p-4">
+      <h1 className="text-2xl sm:text-4xl font-bold text-center text-primary p-4">
         Experience With
       </h1>
-      <div className="flex justify-center items-center px-20 py-8 sm:py-12">
+      <div className="px-20 py-8 sm:py-12">
         <div className="inline-grid grid-flow-cols grid-cols-3 sm:grid-cols-4 gap-4 sm:gap-12 rounded-3xl border-8 p-4 border-gray-400  border-opacity-60 shadow-2xl">
           {Object.entries(iconDictionary).map(([title, link]) => (
             <Logo key={title} name={title} icon={link} />
