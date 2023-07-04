@@ -1,6 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   const isSmallScreen = useMediaQuery({ query: "(min-width: 760px" });

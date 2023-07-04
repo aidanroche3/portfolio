@@ -26,7 +26,7 @@ function LogoGrid() {
         Experience In
       </h1>
       <div className="flex justify-center items-center px-20 py-8 sm:py-12">
-        <div className="inline-grid grid-cols-3 sm:grid-cols-4 gap-12">
+        <div className="inline-grid grid-cols-3 sm:grid-cols-4 gap-12 rounded-3xl border-8 p-4 border-gray-400 bg-gray-100 border-opacity-60">
           {Object.entries(iconDictionary).map(([title, link]) => (
             <Logo key={title} name={title} icon={link} />
           ))}
