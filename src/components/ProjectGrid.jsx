@@ -56,6 +56,26 @@ function ProjectGrid() {
             IntelliJ: "logos/intellij.svg",
           }}
         />
+        <Project
+          title="Summarize This + Anki-Lite"
+          description="Application for generating study guides and study sessions with spaced repetition quizzes"
+          link="https://github.com/aidanroche3/PA-02-Anki-Lite"
+          image="projects/anki.PNG"
+          skills={{
+            Java: "logos/java.svg",
+            IntelliJ: "logos/intellij.svg",
+          }}
+        />
+        <Project
+          title="Summarize This + Anki-Lite"
+          description="Application for generating study guides and study sessions with spaced repetition quizzes"
+          link="https://github.com/aidanroche3/PA-02-Anki-Lite"
+          image="projects/anki.PNG"
+          skills={{
+            Java: "logos/java.svg",
+            IntelliJ: "logos/intellij.svg",
+          }}
+        />
       </div>
     </div>
   );

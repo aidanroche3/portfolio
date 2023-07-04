@@ -9,7 +9,7 @@ function Home() {
     <>
       {isSmallScreen ? (
         <div id="home">
-          <div className="w-screen h-screen max-h-850px pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 bg-slate-100">
+          <div className="w-screen h-screen max-h-850px pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 ">
             <img className="rounded-3xl shadow-lg" src="paris.jpg" />
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
             <img className="rounded-3xl shadow-lg" src="rome.jpg" />
@@ -47,10 +47,7 @@ function Home() {
         </div>
       ) : (
         <>
-          <div
-            id="home"
-            className="w-full h-full m-auto pt-20 p-5 pb-20 bg-slate-100"
-          >
+          <div id="home" className="w-full h-full m-auto pt-20 p-5 pb-20 ">
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
           </div>
           <div className="w-full h-full absolute top-0 left-0 bg-white/20">
