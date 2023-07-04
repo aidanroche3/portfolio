@@ -1,30 +1,30 @@
 import React from "react";
 import Logo from "./Logo";
 
-function LogoGrid() {
-  const iconDictionary = {
-    Java: "./../../public/logos/java.svg",
-    Python: "./../../public/logos/python.svg",
-    Racket: "./../../public/logos/racket.svg",
-    JavaScript: "./../../public/logos/javascript.svg",
-    HTML: "./../../public/logos/html.svg",
-    CSS: "./../../public/logos/css.svg",
-    React: "./../../public/logos/react.svg",
-    Tailwind: "./../../public/logos/tailwindcss.svg",
-    Vite: "./../../public/logos/vite.svg",
-    NPM: "./../../public/logos/npm.svg",
-    Git: "./../../public/logos/git.svg",
-    GitHub: "./../../public/logos/github.svg",
-    VSCode: "./../../public/logos/vscode.svg",
-    IntelliJ: "./../../public/logos/intellij.svg",
-    PyCharm: "./../../public/logos/pycharm.svg",
-    Eclipse: "./../../public/logos/eclipse.svg",
-  };
+const iconDictionary = {
+  Java: "./../../public/logos/java.svg",
+  Python: "./../../public/logos/python.svg",
+  Racket: "./../../public/logos/racket.svg",
+  JavaScript: "./../../public/logos/javascript.svg",
+  HTML: "./../../public/logos/html.svg",
+  CSS: "./../../public/logos/css.svg",
+  React: "./../../public/logos/react.svg",
+  Tailwind: "./../../public/logos/tailwindcss.svg",
+  Vite: "./../../public/logos/vite.svg",
+  NPM: "./../../public/logos/npm.svg",
+  Git: "./../../public/logos/git.svg",
+  GitHub: "./../../public/logos/github.svg",
+  VSCode: "./../../public/logos/vscode.svg",
+  IntelliJ: "./../../public/logos/intellij.svg",
+  PyCharm: "./../../public/logos/pycharm.svg",
+  Eclipse: "./../../public/logos/eclipse.svg",
+};
 
+function LogoGrid() {
   return (
     <div
       id="experience"
-      className="w-100% h-auto m-auto flex flex-col justify-center items-center py-4 sm:py-12"
+      className="m-auto flex flex-col justify-center items-center py-4 sm:py-12"
     >
       <h1 className="text-2xl sm:text-4xl font-bold text-center text-[#001b5e] border-8 border-gray-400 border-opacity-60 shadow-xl rounded-3xl p-4">
         Experience With
