@@ -1,7 +1,6 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
-import { TypeAnimation } from "react-type-animation";
 
 function Home() {
   const isSmallScreen = useMediaQuery({ query: "(min-width: 760px" });
@@ -16,7 +15,7 @@ function Home() {
             <img className="rounded-3xl shadow-lg" src="rome.jpg" />
           </div>
           <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
-            <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center ">
+            <div className="group max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center ">
               <h1 className="sm:text-5xl text-5x font-bold text-gray-200">
                 Aidan Roche
               </h1>

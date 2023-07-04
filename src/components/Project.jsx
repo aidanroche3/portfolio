@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Project({ title, description, image, skills, link }) {
   return (
-    <div className="relative flex items-center justify-center max-h-screen h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-300 to-[#ffffff]">
+    <div className="relative flex items-center justify-center max-h-screen h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-300 to-[#fff]">
       <img
         src={image}
         alt={title}
@@ -15,7 +15,7 @@ function Project({ title, description, image, skills, link }) {
         </h3>
         <p className="pb-4 pt-2 text-[#001b5e] text-center">{description}</p>
       </div>
-      {link != "" ? (
+      {link ? (
         <div className="hidden group-hover:block absolute top-4 right-4">
           <a href={link}>
             <FaGithub
