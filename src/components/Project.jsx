@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectBadge from "./ProjectBadge";
-import { FaGithub } from "react-icons/fa";
+import WIPBadge from "./badges/WIPBadge";
+import GitHubBadge from "./badges/GitHubBadge";
 
 function Project({ title, description, image, skills, link, wip }) {
   return (
@@ -16,31 +16,18 @@ function Project({ title, description, image, skills, link, wip }) {
         </h3>
         <p className="pb-4 pt-2 text-primary text-center">{description}</p>
       </div>
-      {link ? (
-        <div className="hidden group-hover:block absolute top-4 right-4">
-          <a href={link}>
-            <FaGithub
-              size={60}
-              className="cursor:pointer hover:scale-110 ease-in duration-200"
-            />
-          </a>
-        </div>
-      ) : (
-        <></>
-      )}
-      {wip ? <ProjectBadge /> : <></>}
+      {link ? <GitHubBadge link={link} /> : <></>}
+      {wip ? <WIPBadge /> : <></>}
       <div className="hidden group-hover:inline-grid grid-cols-8 items-center gap-3 px-2 absolute bottom-4 left-4">
         {Object.entries(skills).map(([name, link]) => (
-          <div key={name} className="object-none">
-            <div className="tooltip tooltip-top" data-tip={name}>
-              <img
-                className="pt-2 hover:scale-110 ease-in duration-200"
-                src={link}
-                alt={name}
-                width={40}
-                height={40}
-              />
-            </div>
+          <div key={name} className="tooltip tooltip-top" data-tip={name}>
+            <img
+              className="pt-2 hover:scale-110 ease-in duration-200"
+              src={link}
+              alt={name}
+              width={40}
+              height={40}
+            />
           </div>
         ))}
       </div>
