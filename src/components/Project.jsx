@@ -31,10 +31,9 @@ function Project({ title, description, image, skills, link, wip }) {
       {wip ? <ProjectBadge /> : <></>}
       <div className="hidden group-hover:inline-grid grid-cols-8 items-center gap-3 px-2 absolute bottom-4 left-4">
         {Object.entries(skills).map(([name, link]) => (
-          <div className="object-none">
+          <div key={name} className="object-none">
             <div className="tooltip tooltip-top" data-tip={name}>
               <img
-                id={name}
                 className="pt-2 hover:scale-110 ease-in duration-200"
                 src={link}
                 alt={name}

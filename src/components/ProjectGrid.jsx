@@ -32,6 +32,7 @@ function ProjectGrid() {
           image="projects/bulletjournal.PNG"
           skills={{
             Java: "logos/java.svg",
+            CSS: "logos/css.svg",
             "JavaFX SceneBuilder": "logos/javafx.png",
             Gradle: "logos/gradle.svg",
             IntelliJ: "logos/intellij.svg",
