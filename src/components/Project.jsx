@@ -3,10 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Project({ title, description, image, skills, link }) {
   return (
-    <div
-      id={title}
-      className="relative flex items-center justify-center max-h-screen h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#ffffff]"
-    >
+    <div className="relative flex items-center justify-center max-h-screen h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-300 to-[#ffffff]">
       <img
         src={image}
         alt={title}
@@ -30,9 +27,9 @@ function Project({ title, description, image, skills, link }) {
       ) : (
         <></>
       )}
-      <div className="hidden group-hover:flex flex-row gap-4 absolute bottom-4 left-4">
+      <div className="hidden group-hover:inline-grid grid-cols-8 items-center gap-3 px-2 absolute bottom-4 left-4">
         {skills.map((skill) => (
-          <img src={skill} alt="" width={40} height={40} />
+          <img id={skill} src={skill} alt="" width={40} height={40} />
         ))}
       </div>
     </div>

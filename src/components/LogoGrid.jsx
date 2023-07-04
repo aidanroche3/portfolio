@@ -26,7 +26,7 @@ function LogoGrid() {
       id="experience"
       className="m-auto flex flex-col justify-center items-center py-4 sm:py-12"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold text-center text-[#001b5e] border-8 border-gray-400 border-opacity-60 shadow-xl rounded-3xl p-4">
+      <h1 className="text-2xl sm:text-4xl font-bold text-center text-[#001b5e] p-4">
         Experience With
       </h1>
       <div className="flex justify-center items-center px-20 py-8 sm:py-12">
