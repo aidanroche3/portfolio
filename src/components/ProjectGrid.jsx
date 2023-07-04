@@ -23,6 +23,7 @@ function ProjectGrid() {
             NPM: "logos/npm.svg",
             VSCode: "logos/vscode.svg",
           }}
+          wip="true"
         />
         <Project
           title="Bullet Journal"

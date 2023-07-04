@@ -1,7 +1,8 @@
 import React from "react";
+import ProjectBadge from "./ProjectBadge";
 import { FaGithub } from "react-icons/fa";
 
-function Project({ title, description, image, skills, link }) {
+function Project({ title, description, image, skills, link, wip }) {
   return (
     <div className="relative flex items-center justify-center max-h-screen h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-300 to-[#fff]">
       <img
@@ -27,6 +28,7 @@ function Project({ title, description, image, skills, link }) {
       ) : (
         <></>
       )}
+      {wip ? <ProjectBadge /> : <></>}
       <div className="hidden group-hover:inline-grid grid-cols-8 items-center gap-3 px-2 absolute bottom-4 left-4">
         {Object.entries(skills).map(([name, link]) => (
           <div className="object-none">
