@@ -17,10 +17,10 @@ function ProjectGrid() {
             HTML: "logos/html.svg",
             CSS: "logos/css.svg",
             JavaScript: "logos/javascript.svg",
-            Vite: "logos/vite.svg",
+            NPM: "logos/npm.svg",
             React: "logos/react.svg",
             Tailwind: "logos/tailwindcss.svg",
-            NPM: "logos/npm.svg",
+            Vite: "logos/vite.svg",
             VSCode: "logos/vscode.svg",
           }}
           wip="true"
