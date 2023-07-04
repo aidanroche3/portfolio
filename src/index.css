@@ -5,6 +5,4 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  min-width: 580;
-  min-height: 850;
 }

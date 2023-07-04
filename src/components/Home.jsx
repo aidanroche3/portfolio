@@ -10,7 +10,7 @@ function Home() {
     <>
       {isSmallScreen ? (
         <div id="home">
-          <div className="w-screen h-screen pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 bg-slate-100">
+          <div className="w-screen h-screen max-h-850px pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 bg-slate-100">
             <img className="rounded-3xl shadow-lg" src="paris.jpg" />
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
             <img className="rounded-3xl shadow-lg" src="rome.jpg" />
@@ -50,11 +50,11 @@ function Home() {
         <>
           <div
             id="home"
-            className="max-w-[700px] m-auto h-screen w-full pt-20 p-5 pb-20 bg-slate-100 body-100"
+            className="w-full h-full m-auto pt-20 p-5 pb-20 bg-slate-100"
           >
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
           </div>
-          <div className="w-full h-screen absolute top-0 left-0 bg-white/20">
+          <div className="w-full h-full absolute top-0 left-0 bg-white/20">
             <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center items-center ">
               <h1 className="text-5x pl-20 font-bold text-gray-100">
                 Aidan Roche
