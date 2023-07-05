@@ -8,14 +8,13 @@ function Home() {
   return (
     <>
       {isLargeScreen ? (
-        <div id="home" className="w-full h-screen">
+        <div id="home" className="w-full min-h-screen">
           <div className="w-screen min-h-0 pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 ">
             <img className="rounded-3xl shadow-lg" src="paris.jpg" />
             <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
             <img className="rounded-3xl shadow-lg" src="rome.jpg" />
           </div>
-          <div className="w-full h-screen absolute top-0 left-0 bg-white/20"></div>
-          <div className="group m-auto flex flex-col justify-center items-center relative z-0">
+          <div className="group m-auto flex flex-col justify-center items-center relative z-10">
             <h1 className="sm:text-5xl text-5x font-bold text-primary">
               Aidan Roche
             </h1>
@@ -26,31 +25,32 @@ function Home() {
               <a href="https://www.instagram.com/aroche_37">
                 <FaInstagram
                   size={40}
-                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#E1306C]"
                 />
               </a>
               <a href="https://www.linkedin.com/in/aidanroche/">
                 <FaLinkedinIn
                   size={40}
-                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#0077B5]"
                 />
               </a>
               <a href="https://github.com/aidanroche3">
                 <FaGithub
                   size={40}
-                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#333]"
                 />
               </a>
             </div>
           </div>
+          <div className="w-full min-h-screen absolute top-0 left-0 bg-white/20"></div>
         </div>
       ) : (
         <>
-          <div id="home" className="w-full h-screen">
+          <div id="home" className="w-full min-h-screen">
             <div className="min-h-0 p-10 py-10 flex justify-center">
               <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
             </div>
-            <div className="w-full h-screen absolute top-0 left-0 bg-white/20"></div>
+            <div className="w-full min-h-screen absolute top-0 left-0 bg-white/20"></div>
             <div className="group m-auto flex flex-col justify-center items-center relative z-0">
               <h1 className="sm:text-5xl text-3xl font-bold text-primary">
                 Aidan Roche
@@ -62,19 +62,19 @@ function Home() {
                 <a href="https://www.instagram.com/aroche_37">
                   <FaInstagram
                     size={40}
-                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#E1306C]"
                   />
                 </a>
                 <a href="https://www.linkedin.com/in/aidanroche/">
                   <FaLinkedinIn
                     size={40}
-                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#0077B5]"
                   />
                 </a>
                 <a href="https://github.com/aidanroche3">
                   <FaGithub
                     size={40}
-                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#333]"
                   />
                 </a>
               </div>

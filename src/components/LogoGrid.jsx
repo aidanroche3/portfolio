@@ -24,13 +24,13 @@ function LogoGrid() {
   return (
     <div
       id="experience"
-      className="h-screen m-auto flex flex-col justify-center items-center py-4 sm:py-12"
+      className="min-h-screen m-auto flex flex-col justify-center items-center py-4 sm:py-12"
     >
       <h1 className="text-2xl sm:text-4xl font-bold text-center text-primary p-4">
         Experience With
       </h1>
-      <div className="px-20 py-8 sm:py-12">
-        <div className="inline-grid grid-flow-cols grid-cols-3 sm:grid-cols-4 gap-4 sm:gap-12 rounded-3xl border-8 p-4 border-gray-400  border-opacity-60 shadow-2xl">
+      <div className="px-20 py-12">
+        <div className="inline-grid auto-cols-fr grid-cols-4 md:gap-24 gap-12 rounded-3xl">
           {Object.entries(iconDictionary).map(([title, link]) => (
             <Logo key={title} name={title} icon={link} />
           ))}
