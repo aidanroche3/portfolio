@@ -1,8 +1,9 @@
 import React from "react";
 import WIPBadge from "./badges/WIPBadge";
 import GitHubBadge from "./badges/GitHubBadge";
+import RequestBadge from "./badges/RequestBadge";
 
-function Project({ title, description, image, skills, link, wip }) {
+function Project({ title, description, image, skills, link, wip, request }) {
   return (
     <div className="relative flex items-center justify-center max-h-screen h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-300 to-[#fff]">
       <img
@@ -18,6 +19,7 @@ function Project({ title, description, image, skills, link, wip }) {
       </div>
       {link ? <GitHubBadge link={link} /> : <></>}
       {wip ? <WIPBadge /> : <></>}
+      {request ? <RequestBadge /> : <></>}
       <div className="hidden group-hover:inline-grid grid-cols-8 items-center gap-3 px-2 absolute bottom-4 left-4">
         {Object.entries(skills).map(([name, link]) => (
           <div key={name} className="tooltip tooltip-top" data-tip={name}>

@@ -65,6 +65,7 @@ function ProjectGrid() {
           title="Search Maze"
           description="Random mazes generated with Kruskal's algorithm and automatic solving with breadth-first and depth-first searches"
           image="projects/maze.gif"
+          request="true"
           skills={{
             Java: "logos/java.svg",
             Eclipse: "logos/eclipse.svg",
@@ -74,6 +75,7 @@ function ProjectGrid() {
           title="Flood It!"
           description="Flood every cell within a limited number of moves"
           image="projects/floodit.gif"
+          request="true"
           skills={{
             Java: "logos/java.svg",
             Eclipse: "logos/eclipse.svg",
