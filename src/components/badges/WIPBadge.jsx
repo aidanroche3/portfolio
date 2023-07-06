@@ -3,9 +3,12 @@ import { BsCodeSlash } from "react-icons/bs";
 
 function WIPBadge() {
   return (
-    <div className="hidden group-hover:inline-grid grid-cols-8 items-center gap-3 px-2 absolute top-4 left-4">
-      <div className="tooltip tooltip-top" data-tip="Work in Progress">
-        <BsCodeSlash size={35} />
+    <div className="hidden w-1/12 h-1/12 group-hover:block absolute top-6 left-8">
+      <div
+        className="w-full h-full tooltip tooltip-top pl:2"
+        data-tip="Work in Progress"
+      >
+        <BsCodeSlash className="w-full h-full cursor:pointer hover:scale-110 ease-in duration-200 pt-1" />
       </div>
     </div>
   );
