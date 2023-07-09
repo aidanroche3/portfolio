@@ -21,23 +21,17 @@ function Home() {
             <h2 className="sm:text-2xl text-2x pt-4 text-primary">
               Computer Science Student at Northeastern University
             </h2>
-            <div className="flex justify-between items-center pt-6 max-w-[200px] w-full">
-              <a href="https://www.instagram.com/aroche_37">
-                <FaInstagram
+            <div className="flex justify-between items-center pt-6 max-w-[150px] w-full">
+              <a href="https://github.com/aidanroche3">
+                <FaGithub
                   size={40}
-                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#E1306C]"
+                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#333]"
                 />
               </a>
               <a href="https://www.linkedin.com/in/aidanroche/">
                 <FaLinkedinIn
                   size={40}
                   className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#0077B5]"
-                />
-              </a>
-              <a href="https://github.com/aidanroche3">
-                <FaGithub
-                  size={40}
-                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#333]"
                 />
               </a>
             </div>

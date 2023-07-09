@@ -26,8 +26,8 @@ function ProjectGrid() {
           wip="true"
         />
         <Project
-          title="Bullet Journal"
-          description="Bullet journal application built with JavaFX"
+          title="Java Journal"
+          description="Bullet journal application for keeping track of weekly commitments and tasks"
           link={"https://github.com/aidanroche3/PA-05-Java-Journal"}
           image="projects/bulletjournal.PNG"
           skills={{
@@ -40,7 +40,7 @@ function ProjectGrid() {
         />
         <Project
           title="BattleSalvo"
-          description="Battleship twist with P2P server connection"
+          description="Battleship twist with user versus computer gameplay and remote server interactivity"
           link="https://github.com/aidanroche3/PA-04-BattleSalvo-Part-2"
           image="projects/battlesalvo.PNG"
           skills={{
@@ -52,7 +52,7 @@ function ProjectGrid() {
         />
         <Project
           title="Summarize This + Anki-Lite"
-          description="Application for generating study guides and study sessions with spaced repetition quizzes"
+          description="Application for generating summarized study guides and study sessions with spaced repetition quizzes"
           link="https://github.com/aidanroche3/PA-02-Anki-Lite"
           image="projects/anki.PNG"
           skills={{
@@ -63,7 +63,7 @@ function ProjectGrid() {
         />
         <Project
           title="Search Maze"
-          description="Random mazes generated with Kruskal's algorithm and automatic solving with breadth-first and depth-first searches"
+          description="Random mazes generated with Kruskal's algorithm featuring automatic solving with breadth-first and depth-first searches"
           image="projects/maze.gif"
           request="true"
           skills={{
