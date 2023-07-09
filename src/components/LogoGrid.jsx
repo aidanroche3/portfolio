@@ -2,22 +2,22 @@ import React from "react";
 import Logo from "./Logo";
 
 const iconDictionary = {
-  Java: "./../../public/logos/java.svg",
-  Python: "./../../public/logos/python.svg",
-  Racket: "./../../public/logos/racket.svg",
-  JavaScript: "./../../public/logos/javascript.svg",
-  HTML: "./../../public/logos/html.svg",
-  CSS: "./../../public/logos/css.svg",
-  React: "./../../public/logos/react.svg",
-  Tailwind: "./../../public/logos/tailwindcss.svg",
-  Vite: "./../../public/logos/vite.svg",
-  Gradle: "./../../public/logos/gradle.svg",
-  Git: "./../../public/logos/git.svg",
-  GitHub: "./../../public/logos/github.svg",
-  VSCode: "./../../public/logos/vscode.svg",
-  IntelliJ: "./../../public/logos/intellij.svg",
-  PyCharm: "./../../public/logos/pycharm.svg",
-  Eclipse: "./../../public/logos/eclipse.svg",
+  Java: "logos/java.svg",
+  Python: "logos/python.svg",
+  Racket: "logos/racket.svg",
+  JavaScript: "logos/javascript.svg",
+  HTML: "logos/html.svg",
+  CSS: "/logos/css.svg",
+  React: "logos/react.svg",
+  Tailwind: "logos/tailwindcss.svg",
+  Vite: "logos/vite.svg",
+  Gradle: "logos/gradle.svg",
+  Git: "logos/git.svg",
+  GitHub: "logos/github.svg",
+  VSCode: "logos/vscode.svg",
+  IntelliJ: "logos/intellij.svg",
+  PyCharm: "logos/pycharm.svg",
+  Eclipse: "logos/eclipse.svg",
 };
 
 function LogoGrid() {

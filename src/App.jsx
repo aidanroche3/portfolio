@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import LogoGrid from "./components/LogoGrid";
 import ProjectGrid from "./components/ProjectGrid/";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <LogoGrid />
       <ProjectGrid />
+      <About />
       <Footer />
     </>
   );
