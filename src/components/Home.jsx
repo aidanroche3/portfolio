@@ -1,6 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 function Home() {
   const isLargeScreen = useMediaQuery({ query: "(min-width: 760px" });
@@ -21,13 +22,22 @@ function Home() {
             <h2 className="sm:text-2xl text-2x pt-4 text-primary">
               Computer Science Student at Northeastern University
             </h2>
-            <div className="flex justify-between items-center pt-6 max-w-[150px] w-full">
+            <div className="flex justify-between items-center pt-6 max-w-[200px] w-full">
               <a href="https://github.com/aidanroche3">
                 <FaGithub
                   size={40}
                   className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#333]"
                 />
               </a>
+              <div
+                className="tooltip tooltip-top"
+                data-tip={"roche.ai@northeastern.edu"}
+              >
+                <MdOutlineMail
+                  size={40}
+                  className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                />
+              </div>
               <a href="https://www.linkedin.com/in/aidanroche/">
                 <FaLinkedinIn
                   size={40}
@@ -53,22 +63,26 @@ function Home() {
                 Computer Science Student at Northeastern University
               </h2>
               <div className="flex justify-between items-center pt-6 max-w-[200px] w-full">
-                <a href="https://www.instagram.com/aroche_37">
-                  <FaInstagram
-                    size={40}
-                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#E1306C]"
-                  />
-                </a>
-                <a href="https://www.linkedin.com/in/aidanroche/">
-                  <FaLinkedinIn
-                    size={40}
-                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#0077B5]"
-                  />
-                </a>
                 <a href="https://github.com/aidanroche3">
                   <FaGithub
                     size={40}
                     className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#333]"
+                  />
+                </a>
+                <div
+                  className="tooltip tooltip-top"
+                  data-tip={"roche.ai@northeastern.edu"}
+                >
+                  <MdOutlineMail
+                    size={40}
+                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm"
+                  />
+                </div>
+
+                <a href="https://www.linkedin.com/in/aidanroche/">
+                  <FaLinkedinIn
+                    size={40}
+                    className="cursor:pointer hover:scale-110 ease-in duration-200 hover:shadow-sm text-[#0077B5]"
                   />
                 </a>
               </div>
