@@ -6,6 +6,9 @@ export default {
       colors: {
         primary: "#14569F",
       },
+      screens: {
+        squished: [{ min: "639px", max: "950px" }],
+      },
     },
   },
   plugins: [require("daisyui")],
