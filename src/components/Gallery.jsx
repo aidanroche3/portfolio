@@ -62,7 +62,6 @@ function Gallery() {
         showNav={false}
         slideDuration={350}
         slideInterval={5000}
-        showBullets={true}
         onSlide={updateDescription}
       />
       <p className="font-bold text-center text-primary bg-slate-200 shadow-lg">
