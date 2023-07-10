@@ -14,7 +14,7 @@ function ProjectGrid() {
             <Project
               title="Portfolio Site"
               description="Website for showcasing skills and projects"
-              image="edinburgh.jpg"
+              image="personal/edinburgh.jpg"
               link={"https://github.com/aidanroche3/portfolio-site"}
               skills={{
                 HTML: "logos/html.svg",

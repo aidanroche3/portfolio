@@ -8,35 +8,33 @@ function Gallery() {
   const images = [
     {
       original: "personal/london.jpg",
-      thumbnail: "personal/london.jpg",
     },
     {
       original: "personal/pisa.jpg",
-      thumbnail: "personal/pisa.jpg",
     },
     {
       original: "personal/wimbledon.jpg",
-      thumbnail: "personal/wimbledon.jpg",
     },
     {
       original: "personal/scotland.jpg",
-      thumbnail: "personal/scotland.jpg",
     },
     {
-      original: "personal/rome.jpg",
-      thumbnail: "personal/rome.jpg",
+      original: "personal/oslo.JPEG",
+    },
+    {
+      original: "personal/romeflag.jpg",
     },
     {
       original: "personal/hollywood.jpg",
-      thumbnail: "personal/hollywood.jpg",
     },
     {
       original: "personal/venice.jpg",
-      thumbnail: "personal/venice.jpg",
+    },
+    {
+      original: "personal/arthursseat.jpg",
     },
     {
       original: "personal/colosseum.jpg",
-      thumbnail: "personal/colosseum.jpg",
     },
   ];
 
@@ -45,9 +43,11 @@ function Gallery() {
     "Pisa, Italy",
     "Wimbledon, England",
     "St. Andrews, Scotland",
+    "Oslo, Norway",
     "Rome, Italy",
     "Hollywood, California",
     "Venice, Italy",
+    "Edinburgh, Scotland",
     "Rome, Italy",
   ];
 

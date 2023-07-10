@@ -13,9 +13,12 @@ function Home() {
         <Reveal>
           <div id="home" className="w-full min-h-screen">
             <div className="w-screen min-h-0 pt-20 p-5 pb-10 grid grid-cols-1 sm:grid-cols-3 gap-5 ">
-              <img className="rounded-3xl shadow-lg" src="paris.jpg" />
-              <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
-              <img className="rounded-3xl shadow-lg" src="rome.jpg" />
+              <img className="rounded-3xl shadow-lg" src="personal/paris.jpg" />
+              <img
+                className="rounded-3xl shadow-lg"
+                src="personal/edinburgh.jpg"
+              />
+              <img className="rounded-3xl shadow-lg" src="personal/rome.jpg" />
             </div>
             <Reveal>
               <div className="group m-auto flex flex-col justify-center items-center relative z-10">
@@ -58,7 +61,10 @@ function Home() {
           <Reveal>
             <div id="home" className="w-full min-h-screen">
               <div className="min-h-0 p-10 py-10 flex justify-center">
-                <img className="rounded-3xl shadow-lg" src="edinburgh.jpg" />
+                <img
+                  className="rounded-3xl shadow-lg"
+                  src="personal/edinburgh.jpg"
+                />
               </div>
               <div className="w-full min-h-screen absolute top-0 left-0 bg-white/20"></div>
               <div className="group m-auto flex flex-col justify-center items-center relative z-0">
