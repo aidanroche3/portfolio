@@ -13,7 +13,13 @@ function Gallery() {
       original: "personal/pisa.jpg",
     },
     {
+      original: "personal/iceland.JPG",
+    },
+    {
       original: "personal/wimbledon.jpg",
+    },
+    {
+      original: "personal/versailles.JPG",
     },
     {
       original: "personal/scotland.jpg",
@@ -22,16 +28,25 @@ function Gallery() {
       original: "personal/oslo.JPEG",
     },
     {
+      original: "personal/ghent.JPG",
+    },
+    {
       original: "personal/romeflag.jpg",
     },
     {
       original: "personal/hollywood.jpg",
     },
     {
+      original: "personal/lagoon.JPG",
+    },
+    {
       original: "personal/venice.jpg",
     },
     {
       original: "personal/arthursseat.jpg",
+    },
+    {
+      original: "personal/brussels.JPG",
     },
     {
       original: "personal/colosseum.jpg",
@@ -41,13 +56,18 @@ function Gallery() {
   const descriptions = [
     "London, England",
     "Pisa, Italy",
+    "Kerid, Iceland",
     "Wimbledon, England",
+    "Versailles, France",
     "St. Andrews, Scotland",
     "Oslo, Norway",
+    "Ghent, Belgium",
     "Rome, Italy",
     "Hollywood, California",
+    "Blue Lagoon, Iceland",
     "Venice, Italy",
     "Edinburgh, Scotland",
+    "Brussels, Belgium",
     "Rome, Italy",
   ];
 
