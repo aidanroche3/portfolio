@@ -4,9 +4,9 @@ import Reveal from "./Reveal";
 
 const iconDictionary = {
   Java: "logos/java.svg",
-  Python: "logos/python.svg",
-  Racket: "logos/racket.svg",
   JavaScript: "logos/javascript.svg",
+  Racket: "logos/racket.svg",
+  Python: "logos/python.svg",
   HTML: "logos/html.svg",
   CSS: "/logos/css.svg",
   React: "logos/react.svg",
@@ -17,7 +17,6 @@ const iconDictionary = {
   GitHub: "logos/github.svg",
   VSCode: "logos/vscode.svg",
   IntelliJ: "logos/intellij.svg",
-  PyCharm: "logos/pycharm.svg",
   Eclipse: "logos/eclipse.svg",
 };
 

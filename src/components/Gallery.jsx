@@ -46,7 +46,7 @@ function Gallery() {
       original: "personal/arthursseat.jpg",
     },
     {
-      original: "personal/brussels.JPG",
+      original: " personal/brussels.JPG",
     },
     {
       original: "personal/colosseum.jpg",
