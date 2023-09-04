@@ -8,7 +8,7 @@ const iconDictionary = {
   Racket: "logos/racket.svg",
   Python: "logos/python.svg",
   HTML: "logos/html.svg",
-  CSS: "/logos/css.svg",
+  CSS: "logos/css.svg",
   React: "logos/react.svg",
   Tailwind: "logos/tailwindcss.svg",
   Vite: "logos/vite.svg",
