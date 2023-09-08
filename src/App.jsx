@@ -4,6 +4,7 @@ import LogoGrid from "./components/LogoGrid";
 import ProjectGrid from "./components/ProjectGrid/";
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Involvement from "./components/Involvement";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <LogoGrid />
       <ProjectGrid />
+      <Involvement />
       <About />
       <Footer />
     </>
