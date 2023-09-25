@@ -63,7 +63,6 @@ function Home() {
                 src="personal/edinburgh.jpg"
               />
             </div>
-            <div className="w-full min-h-screen absolute top-0 left-0 bg-white/20"></div>
             <div className="group m-auto flex flex-col justify-center items-center relative z-0">
               <h1 className="sm:text-5xl text-3xl font-bold text-primary">
                 Aidan Roche

@@ -67,31 +67,31 @@ function Navbar() {
         <div className="flex flex-col">
           <a
             href="#home"
-            className="border-l-2 border-l-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 scroll-smooth"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 scroll-smooth"
           >
             <AiOutlineHome size={20} />
           </a>
           <a
             href="#experience"
-            className="border-l-2 border-l-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsCodeSlash size={20} />
           </a>
           <a
             href="#projects"
-            className="border-l-2 border-l-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <LiaProjectDiagramSolid size={20} />
           </a>
           <a
             href="#involvement"
-            className="border-l-2 border-l-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <VscOrganization size={20} />
           </a>
           <a
             href="#about"
-            className="border-l-2 border-l-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsFillPersonFill size={20} />
           </a>
