@@ -5,10 +5,9 @@ import Reveal from "./Reveal";
 const iconDictionary = {
   Java: "logos/java.svg",
   JavaScript: "logos/javascript.svg",
-  Racket: "logos/racket.svg",
-  Python: "logos/python.svg",
   HTML: "logos/html.svg",
   CSS: "logos/css.svg",
+  Racket: "logos/racket.svg",
   React: "logos/react.svg",
   Tailwind: "logos/tailwindcss.svg",
   Vite: "logos/vite.svg",

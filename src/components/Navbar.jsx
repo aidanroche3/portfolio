@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineHome } from "react-icons/ai";
 import { BsCodeSlash, BsFillPersonFill } from "react-icons/bs";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
+import { VscOrganization } from "react-icons/vsc";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -18,7 +19,7 @@ function Navbar() {
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a
-            className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center border-b-2 border-b-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#home"
             onClick={handleNav}
           >
@@ -26,7 +27,7 @@ function Navbar() {
             <span className="pl-4 ">Home</span>
           </a>
           <a
-            className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center border-b-2 border-b-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#experience"
             onClick={handleNav}
           >
@@ -34,7 +35,7 @@ function Navbar() {
             <span className="pl-4 ">Experience</span>
           </a>
           <a
-            className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center border-b-2 border-b-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#projects"
             onClick={handleNav}
           >
@@ -42,7 +43,15 @@ function Navbar() {
             <span className="pl-4 ">Projects</span>
           </a>
           <a
-            className="w-[75%] flex justify-center items-center rounded-full shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[75%] flex justify-center items-center border-b-2 border-b-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            href="#involvement"
+            onClick={handleNav}
+          >
+            <VscOrganization size={20} />
+            <span className="pl-4 ">Involvement</span>
+          </a>
+          <a
+            className="w-[75%] flex justify-center items-center border-b-2 border-b-black m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             href="#about"
             onClick={handleNav}
           >
@@ -58,25 +67,31 @@ function Navbar() {
         <div className="flex flex-col">
           <a
             href="#home"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 scroll-smooth"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 scroll-smooth"
           >
             <AiOutlineHome size={20} />
           </a>
           <a
             href="#experience"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsCodeSlash size={20} />
           </a>
           <a
             href="#projects"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <LiaProjectDiagramSolid size={20} />
           </a>
           <a
+            href="#involvement"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <VscOrganization size={20} />
+          </a>
+          <a
             href="#about"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="border-b-2 border-b-black bg-gray-100 rounded-lg m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsFillPersonFill size={20} />
           </a>
