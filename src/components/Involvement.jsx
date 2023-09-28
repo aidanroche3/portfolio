@@ -12,30 +12,41 @@ function Involvement() {
           </h1>
           <div className="grid grid-cols-1 gap-12">
             <Commitment
-              title="Northeastern Electric Racing"
-              dates="January 2023 - June 2023"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+              title="NU Science Magazine"
+              role="Software Developer"
+              dates="September 2023 - Present"
+              description="Working with the software team to develop a full-stack website for hosting hundreds of student-written science articles stored in a database. Currently working on a basic social media app with user authentication and database retrieval to practice/learn HTML, CSS, JavaScript, Express, Docker, and MongoDB."
               skills={{
-                TypeScript: "logos/typescript.svg",
-                React: "logos/react.svg",
+                HTML: "logos/html.svg",
+                CSS: "logos/css.svg",
+                JavaScript: "logos/javascript.svg",
                 NodeJs: "logos/node.svg",
+                ExpressJs: "logos/express.svg",
+                Docker: "logos/docker.svg",
+                MongoDB: "logos/mongodb.svg",
+                NPM: "logos/npm.svg",
+                VSCode: "logos/vscode.svg",
+              }}
+              image="logos/nusci.png"
+              link="https://nuscimagazine.com/"
+            />
+            <Commitment
+              title="Northeastern Electric Racing"
+              role="Software Developer"
+              dates="January 2023 - May 2023"
+              description="Collaborated with a small team on a full-stack project management dashboard serving 70+ active users. Developed front-end features such as page pagination and toast alerts.
+              "
+              skills={{
+                HTML: "logos/html.svg",
+                CSS: "logos/css.svg",
+                TypeScript: "logos/typescript.svg",
+                NodeJs: "logos/node.svg",
+                React: "logos/react.svg",
                 Yarn: "logos/yarn.svg",
                 VSCode: "logos/vscode.svg",
               }}
               image="logos/ner.webp"
-            />
-            <Commitment
-              title="Northeastern Electric Racing"
-              dates="January 2023 - June 2023"
-              description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-              skills={{
-                JavaScript: "logos/javascript.svg",
-                React: "logos/react.svg",
-                Tailwindcss: "logos/tailwindcss.svg",
-                NPM: "logos/npm.svg",
-                VSCode: "logos/vscode.svg",
-              }}
-              image="logos/racket.svg"
+              link="https://electricracing.northeastern.edu/"
             />
           </div>
         </div>
