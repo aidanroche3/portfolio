@@ -12,6 +12,25 @@ function ProjectGrid() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
           <Reveal>
             <Project
+              title="Network Builder"
+              description="Basic social networking app with user authentication"
+              image="projects/networkbuilder.jpg"
+              link={"https://github.com/aidanroche3/network-builder"}
+              skills={{
+                HTML: "logos/html.svg",
+                CSS: "logos/css.svg",
+                JavaScript: "logos/javascript.svg",
+                NodeJs: "logos/node.svg",
+                ExpressJs: "logos/express.svg",
+                Docker: "logos/docker.svg",
+                MongoDB: "logos/mongodb.svg",
+                VSCode: "logos/vscode.svg",
+              }}
+              wip="true"
+            />
+          </Reveal>
+          <Reveal>
+            <Project
               title="Portfolio Site"
               description="Website for showcasing skills and projects"
               image="personal/edinburgh.jpg"
