@@ -13,7 +13,7 @@ function ProjectGrid() {
           <Reveal>
             <Project
               title="Network Builder"
-              description="Basic social networking app with user authentication"
+              description="Basic social networking app with user authentication and database retrieval"
               image="projects/networkbuilder.jpg"
               link={"https://github.com/aidanroche3/network-builder"}
               skills={{
