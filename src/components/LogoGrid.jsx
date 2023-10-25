@@ -12,6 +12,8 @@ const iconDictionary = {
   Tailwind: "logos/tailwindcss.svg",
   Vite: "logos/vite.svg",
   Gradle: "logos/gradle.svg",
+  MongoDB: "logos/mongodb.svg",
+  Docker: "logos/docker.svg",
   Git: "logos/git.svg",
   GitHub: "logos/github.svg",
   VSCode: "logos/vscode.svg",
