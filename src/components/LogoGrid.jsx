@@ -3,10 +3,12 @@ import Logo from "./Logo";
 import Reveal from "./Reveal";
 
 const iconDictionary = {
-  Java: "logos/java.svg",
   JavaScript: "logos/javascript.svg",
   HTML: "logos/html.svg",
   CSS: "logos/css.svg",
+  C: "logos/c.svg",
+  "C++": "logos/c++.svg",
+  Java: "logos/java.svg",
   Racket: "logos/racket.svg",
   React: "logos/react.svg",
   Tailwind: "logos/tailwindcss.svg",
@@ -32,7 +34,7 @@ function LogoGrid() {
           Experience With
         </h1>
         <div className="px-20 py-12">
-          <div className="inline-grid auto-cols-fr grid-cols-4 md:gap-24 gap-12 rounded-3xl">
+          <div className="inline-grid auto-cols-fr grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-24 gap-12 rounded-3xl">
             {Object.entries(iconDictionary).map(([title, link]) => (
               <Reveal key={title}>
                 <Logo key={title} name={title} icon={link} />

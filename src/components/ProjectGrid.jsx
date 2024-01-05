@@ -12,6 +12,25 @@ function ProjectGrid() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
           <Reveal>
             <Project
+              title="Graph Algorithm Visualizer"
+              description="Interactive website for visualizing various graph algorithms such as DFS, BFS, and Djikstra's algorithm"
+              image="projects/graph.gif"
+              link={"https://github.com/Ray-kong/graph-visual"}
+              skills={{
+                HTML: "logos/html.svg",
+                CSS: "logos/css.svg",
+                JavaScript: "logos/javascript.svg",
+                NodeJs: "logos/node.svg",
+                React: "logos/react.svg",
+                Tailwind: "logos/tailwindcss.svg",
+                Vite: "logos/vite.svg",
+                VSCode: "logos/vscode.svg",
+              }}
+              wip="true"
+            />
+          </Reveal>
+          <Reveal>
+            <Project
               title="Network Builder"
               description="Basic social networking app with user authentication and database retrieval"
               image="projects/networkbuilder.jpg"
@@ -26,7 +45,6 @@ function ProjectGrid() {
                 MongoDB: "logos/mongodb.svg",
                 VSCode: "logos/vscode.svg",
               }}
-              wip="true"
             />
           </Reveal>
           <Reveal>
