@@ -3,23 +3,25 @@ import Logo from "./Logo";
 import Reveal from "./Reveal";
 
 const iconDictionary = {
+  Java: "logos/java.svg",
   JavaScript: "logos/javascript.svg",
   HTML: "logos/html.svg",
   CSS: "logos/css.svg",
-  C: "logos/c.svg",
   "C++": "logos/c++.svg",
-  Java: "logos/java.svg",
-  Racket: "logos/racket.svg",
+  C: "logos/c.svg",
   React: "logos/react.svg",
   Tailwind: "logos/tailwindcss.svg",
+  Node: "logos/node.svg",
   Vite: "logos/vite.svg",
   Gradle: "logos/gradle.svg",
+  MySQL: "logos/mysql.svg",
   MongoDB: "logos/mongodb.svg",
   Docker: "logos/docker.svg",
   Git: "logos/git.svg",
   GitHub: "logos/github.svg",
   VSCode: "logos/vscode.svg",
   IntelliJ: "logos/intellij.svg",
+  DataGrip: "logos/datagrip.svg",
   Eclipse: "logos/eclipse.svg",
 };
 

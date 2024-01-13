@@ -63,7 +63,6 @@ function ProjectGrid() {
                 Vite: "logos/vite.svg",
                 VSCode: "logos/vscode.svg",
               }}
-              wip="true"
             />
           </Reveal>
           <Reveal>
@@ -75,7 +74,8 @@ function ProjectGrid() {
               skills={{
                 Java: "logos/java.svg",
                 CSS: "logos/css.svg",
-                "JavaFX SceneBuilder": "logos/javafx.png",
+                JavaFX: "logos/javafx.png",
+                JSON: "logos/json.png",
                 Gradle: "logos/gradle.svg",
                 IntelliJ: "logos/intellij.svg",
               }}
