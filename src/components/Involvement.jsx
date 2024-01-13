@@ -15,7 +15,7 @@ function Involvement() {
               title="NU Science Magazine"
               role="Software Developer"
               dates="September 2023 - Present"
-              description="Working with the software team to develop a full-stack website for hosting hundreds of student-written science articles stored in a database. Currently working on a basic social media app with user authentication and database retrieval to practice/learn HTML, CSS, JavaScript, Express, Docker, and MongoDB."
+              description="Launch a full-stack article hosting website built with Node.js serving 100+ club members and storing 1000+ student-written science articles in a MongoDB database. Also documenting codebase concepts such as authentication and routing in Confluence for new members."
               skills={{
                 HTML: "logos/html.svg",
                 CSS: "logos/css.svg",
@@ -34,8 +34,7 @@ function Involvement() {
               title="Northeastern Electric Racing"
               role="Software Developer"
               dates="January 2023 - May 2023"
-              description="Collaborated with a small team on a full-stack project management dashboard serving 70+ active users. Developed front-end features such as page pagination and toast alerts.
-              "
+              description="Developed a project management dashboard with 70+ active users using Node.js and TypeScript. Designed 10+ front-end features with React such as page pagination and toast alerts. Contributed to an agile project workflow through a product release schedule and ticketing system."
               skills={{
                 HTML: "logos/html.svg",
                 CSS: "logos/css.svg",

@@ -7,17 +7,21 @@ const iconDictionary = {
   JavaScript: "logos/javascript.svg",
   HTML: "logos/html.svg",
   CSS: "logos/css.svg",
-  Racket: "logos/racket.svg",
+  "C++": "logos/c++.svg",
+  C: "logos/c.svg",
   React: "logos/react.svg",
   Tailwind: "logos/tailwindcss.svg",
+  Node: "logos/node.svg",
   Vite: "logos/vite.svg",
   Gradle: "logos/gradle.svg",
+  MySQL: "logos/mysql.svg",
   MongoDB: "logos/mongodb.svg",
   Docker: "logos/docker.svg",
   Git: "logos/git.svg",
   GitHub: "logos/github.svg",
   VSCode: "logos/vscode.svg",
   IntelliJ: "logos/intellij.svg",
+  DataGrip: "logos/datagrip.svg",
   Eclipse: "logos/eclipse.svg",
 };
 
@@ -32,7 +36,7 @@ function LogoGrid() {
           Experience With
         </h1>
         <div className="px-20 py-12">
-          <div className="inline-grid auto-cols-fr grid-cols-4 md:gap-24 gap-12 rounded-3xl">
+          <div className="inline-grid auto-cols-fr grid-cols-3 md:grid-cols-4 lg:grid-cols-5 md:gap-24 gap-12 rounded-3xl">
             {Object.entries(iconDictionary).map(([title, link]) => (
               <Reveal key={title}>
                 <Logo key={title} name={title} icon={link} />
