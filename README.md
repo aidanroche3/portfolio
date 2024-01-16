@@ -1,15 +1,25 @@
-# Portfolio Site
+<h1 align="center">Welcome to Aidan Roche's Portfolio 👋</h1>
+<p>
+</p>
 
-A website for showcasing my current skills and projects
+> A personal portfolio website for showcasing my current skills and projects as a software developer.
 
-## Specifications
+### 🏠 [Homepage](www.aidanroche.com)
 
-This site was built with the following:
+## Install
 
-- React: JavaScript framework
-- Tailwindcss: CSS framework
-- Vite: Site build tool
-- Daisyui: Tailwind component library
-- React Icons: custom icons
-- React Image Gallery: image gallery library
-- Framer Motion: component animations
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm run dev
+```
+
+## Author
+
+👤 **Aidan Roche**
+
+* Github: [@aidanroche3](https://github.com/aidanroche3)
