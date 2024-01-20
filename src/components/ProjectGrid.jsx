@@ -13,7 +13,7 @@ function ProjectGrid() {
           <Reveal>
             <Project
               title="Graph Algorithm Visualizer"
-              description="Interactive website for visualizing various graph algorithms such as DFS, BFS, and Djikstra's algorithm"
+              description="Interactive website for visualizing various graph algorithms such as DFS, Dijkstra's, and Bellman-Ford's algorithm"
               image="projects/graph.gif"
               link={"https://github.com/Ray-kong/graph-visual"}
               skills={{
@@ -31,8 +31,21 @@ function ProjectGrid() {
           </Reveal>
           <Reveal>
             <Project
+              title="Sudoku SAT Solver"
+              description="Automatic sudoku solver using Microsoft's Z3 SAT to determine the satisfiability of random sudoku puzzles"
+              image="projects/satsolver.jpg"
+              link={"https://github.com/aidanroche3/sudoku-solver"}
+              skills={{
+                JavaScript: "logos/javascript.svg",
+                NodeJs: "logos/node.svg",
+                "Microsoft Z3 API": "logos/z3.png",
+              }}
+            />
+          </Reveal>
+          <Reveal>
+            <Project
               title="Network Builder"
-              description="Basic social networking app with user authentication and database retrieval"
+              description="Social networking app with user authentication and database retrieval"
               image="projects/networkbuilder.jpg"
               link={"https://github.com/aidanroche3/network-builder"}
               skills={{
